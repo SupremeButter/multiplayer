@@ -3,7 +3,7 @@ const SNAKE1_COLOUR = '#66ff00';
 const SNAKE2_COLOUR = '#04d9ff';
 const FOOD_COLOUR = '#FF0000';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://trononline.tech');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
